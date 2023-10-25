@@ -6,5 +6,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    name = "Thomas Phillips"
-    return f"Hello, {name}! - {os.environ['ENV_1']}"
+    FAN = "WICK0133"
+    Name="zec"
+    return f"Name: {Name}, Fan: {FAN} - {os.environ['ENV_1']}, {os.environ['ENV_2']}, {os.environ['ENV_3']}, {os.environ['ENV_4']}"
